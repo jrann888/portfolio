@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- creating the spaces page by adding a title and body -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>spaces</title>
+    <h1>Welcome to Spaces.</h1>
+    <p> This page is intented to be used as a blog where you can submit posts and treat it as a community.
+        Being a first-gen student/being a student in general can be difficult to navigate. 
+    </p>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<!-- logo for bottom right of page -->
+<body>
+    <a href="index.html">
+        <img src="images/Logo.png" alt="Home" class="logo">
+    </a>
+
+<!-- having the right nav bar -->
+<nav class="nav-corner">
+    <a href="about.html">About</a>
+    <a href="spaces.html">Spaces</a>
+    <a href="contact.html">Contact</a>
+ </nav>
+
+<!-- creating the table for people to submit their posts -->
+<form action="/submit-post" method="post">
+<table border="1" cellpadding="8">
+    <tr>
+        <td>Title:</td>
+        <td><input type="text" name="title" required></td>
+    </tr>
+    <tr>
+        <td>Message:</td>
+        <td><textarea name="content" rows="5" cols="40" required></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align:center;">
+        <button type="submit">Submit Post</button>
+        </td>
+    </tr>
+</table>
+</form>
+</table>
+ 
+</body>
+</html>
